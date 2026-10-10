@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AdGenius AI</title><link rel="stylesheet" href="/static/style.css"></head>
+<body><main class="wrap">
+<header><div class="logo">✳ AdGenius <span>AI</span></div><p>One brief. Every ad you need.</p></header>
+<section class="panel"><h1>Create your campaign</h1><p>Enter your product details to generate ads for four platforms plus six supporting tools.</p>
+<form id="form">
+<label>Product or service name *<input name="product" required placeholder="e.g. SkillUp AI Course"></label>
+<label>Target audience<input name="audience" placeholder="e.g. college students"></label>
+<label>Product description<textarea name="description" placeholder="What does your product do?"></textarea></label>
+<label>Main benefit or unique selling point *<textarea name="benefit" required placeholder="What real benefit does the customer get?"></textarea></label>
+<label>Offer (optional)<input name="offer" placeholder="e.g. Free demo session"></label>
+<button type="submit" id="go">✦ Generate all ads</button><p id="error"></p>
+</form></section><section id="results" class="panel" hidden><div class="result-head"><h2>Your campaign outputs</h2><button id="copy">Copy all</button></div><div id="output"></div><button id="download">Export JSON</button></section>
+<footer>Review generated copy and verify all claims before publishing.</footer></main><script src="/static/app.js"></script></body></html>
